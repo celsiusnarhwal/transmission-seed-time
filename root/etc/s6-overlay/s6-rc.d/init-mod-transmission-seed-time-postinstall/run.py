@@ -1,5 +1,3 @@
-#!/usr/bin/with-contenv python
-
 import json
 
 transmission_settings = json.load(open("/config/settings.json"))

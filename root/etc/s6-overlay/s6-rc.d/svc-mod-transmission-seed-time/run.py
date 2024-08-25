@@ -1,5 +1,3 @@
-#!/usr/bin/with-contenv python
-
 import time
 from datetime import datetime
 
