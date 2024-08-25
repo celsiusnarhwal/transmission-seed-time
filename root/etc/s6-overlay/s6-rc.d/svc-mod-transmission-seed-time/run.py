@@ -19,6 +19,7 @@ settings = ModSettings()
 tc = Client()
 
 while True:
+    print("test")
     for torrent in tc.get_torrents():
         minutes_since_done = (
             datetime.now().astimezone() - torrent.done_date
